@@ -1,0 +1,10 @@
+name: AntiSleep
+version: '${project.version}'
+main: io.beailotus.antisleep.AntiSleep
+api-version: 1.19
+authors: [ beailotus ]
+description: A plugin which prevents players from sleeping the night away.
+website: https://github.com/beailotus
+permissions:
+    antisleep.bypass:
+        description: Allows the player to sleep the night away.
